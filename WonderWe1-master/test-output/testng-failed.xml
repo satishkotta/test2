@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.Wonderwe.TestCases.TC_002_AnimalsPage">
+        <methods>
+          <include name="SetUp"/>
+          <include name="CountrySelect"/>
+          <include name="Close"/>
+        </methods>
+      </class> <!-- com.Wonderwe.TestCases.TC_002_AnimalsPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

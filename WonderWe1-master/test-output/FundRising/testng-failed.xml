@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FundRising]">
+  <listeners>
+    <listener class-name="com.Wonderwe.Utility.Reporting"/>
+  </listeners>
+  <test name="FundRisingapplication test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Wonderwe.TestCases.TC_002_AnimalsPage">
+        <methods>
+          <include name="SetUp"/>
+          <include name="CountrySelect"/>
+          <include name="Close"/>
+        </methods>
+      </class> <!-- com.Wonderwe.TestCases.TC_002_AnimalsPage -->
+    </classes>
+  </test> <!-- FundRisingapplication test(failed) -->
+</suite> <!-- Failed suite [FundRising] -->
