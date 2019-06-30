@@ -59,7 +59,7 @@ public class BaseClass {
 		File source=ts.getScreenshotAs(OutputType.FILE);
 		File target=new File(System.getProperty("user.dir") + "/Screenshots/"+ timestamp + ".png");
 		FileHandler.copy(source, target);
-		System.out.println("screenshot taken");
+		System.out.println("satish kumar");
 		
 	}
 	
